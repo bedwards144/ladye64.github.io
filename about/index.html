@@ -10,49 +10,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+    $(function()
+    {
+        $("#header").load("/includes/header.html"); 
+        $("#footer").load("/includes/footer.html"); 
+    });
+</script> 
 </head>
 
 <body>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10">
-                <img src="/img/logo.png">
-            </div>
-            <div class="col-sm-2">
-                </newline>
-                <p>myvinylxpressions.ce@gmail.com</p>
-            </div>
-        </div>
-    </div>
+    <div id="header"></div>
 
-    <div class = "container">
-        <nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">My Vinyl Xpressions</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a href="\index.html">Home</a></li>
-                <li><a href="\about\index.html">About</a></li>
-                <li><a href="\gallery\index.html">Gallery</a></li>
-                <li><a href="\links\index.html">Links</a></li>
-                <li><a href="\contact\index.html">Contact</a></li> 
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/myvinylxpressions/">
-                        <span class="fa fa-facebook"></span>
-                    </a>
-                </li>
-                <li><a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/myvinylxpressions.ce/">
-                        <span class="fa fa-instagram"></span>
-                    </a>
-                </li>
-
-            </ul>
-          </div>
-        </nav>
-    </div>
- 
 </body>
 </html>
