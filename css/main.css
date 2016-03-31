@@ -2,3 +2,8 @@ body
 {
 	background-color: #FBEFF2;
 }
+#myCarousel {
+  height: 400px;
+  width: auto;
+  overflow: hidden;
+}
