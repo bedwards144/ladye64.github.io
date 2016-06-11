@@ -12,24 +12,65 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script> 
+<script>
     $(function()
     {
-        $("#header").load("/includes/header.html"); 
-        $("#footer").load("/includes/footer.html"); 
+        $("#header").load("/includes/header.html");
+        $("#footer").load("/includes/footer.html");
     });
-</script> 
+</script>
 </head>
 
 <body>
 
     <div id="header"></div>
 
+    <!-- Countryview Campground Event-->
+    <div class="container" id="camp">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="/vendorshows/camp.jpg" class="img-thumbnail" width="304" height="236" data-toggle="modal" data-target="#camp">
+                    <!-- Modal -->
+                <div id="walk" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Countryview Campground Craft & Vendor Sale</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="/vendorshows/camp.jpg">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="well well-lg" style="height: 388px;">
+                    <h1>Countryview Campground Craft & Vendor Sale - Saturday, July 2</br><small></small></h1>
+
+                    <h3>Location:<small> Countryview Campground - 4569 London Line, Wyoming, ON N0N 1T0</small></h3>
+
+                    <h3>Time: <small> 10:00 AM - 1:00 PM</small></h3>
+
+                    <p><i>"Come on out and celebrate Canada day. Our charity this sale is Pajama Program. Feel free to bring a New pair of Children's Pajama's. We have lots of vendors and it's going to be a lot of fun. Hot dogs and drinks will be sold . We will also have a raffle table."</i></p>
+
+                    <p>View the event on <a href="https://www.facebook.com/events/801185786685377/">Facebook</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Mommy's Night Out Event-->
     <div class="container" id="nightout">
         <div class="row">
             <div class="col-sm-4">
-                <img src="/vendorshows/nightout.png" class="img-thumbnail" width="304" height="236" data-toggle="modal" data-target="#walk"> 
+                <img src="/vendorshows/nightout.png" class="img-thumbnail" width="304" height="236" data-toggle="modal" data-target="#nightout">
                     <!-- Modal -->
                 <div id="walk" class="modal fade" role="dialog">
                     <div class="modal-dialog">
